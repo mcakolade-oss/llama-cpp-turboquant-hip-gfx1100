@@ -1,0 +1,31 @@
+# Local binary packages
+bin/
+rocm/
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+
+# Models and generated data
+*.gguf
+models/
+cache/
+
+# Build trees and downloaded dependencies
+build/
+downloads/
+tools/
+rocmw/
+tq-ui-build/
+llama-cpp-turboquant/
+turboquant_plus/
+
+# Local logs
+*.log
+*.out.txt
+*.err.txt
+
+# Windows noise
+Thumbs.db
+Desktop.ini
